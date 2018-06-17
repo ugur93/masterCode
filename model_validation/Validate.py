@@ -75,19 +75,9 @@ def validate_train_test_split(Data):
     if DATA_TYPE=='GASss':
         PATH = 'Models/NeuralNetworks/SavedModels2/Weights/'
         X_train, Y_train, X_val, Y_val, X_test, Y_test = get_train_test_val_data(X, Y, test_size=0, val_size=0.1)
-        #model=NCNET_CHKPRES.PRESSURE_PDC(Data)
-        #model=NCNET_CHKPRES.PRESSURE_PWH(Data)
+
         model = NET2_PRESSURE.SSNET2()
-        #model = NCNET1_GJOA2.ENSEMBLE(PATHS)
-        #model = NCNET_CHKPRES.PRESSURE_DELTA(tag='PWH', data='GAS')
 
-        #
-        #model.load_weights_from_file(PATH)
-        #model = NNE.SSNET_EXTERNAL(MODEL_SAVEFILE_NAME)
-        #model = NN1.SSNET1()
-        #model=NN_from_file.NCNET_FILE(PATH)
-
-        #model.initialize_zero_thresholds(Data)
         model.initialize_chk_thresholds(Data, True)
         validateCV(model, model.get_weights(), Data, save=True,filename='GJOA_GAS_WELLS_GAS_FINAL_TEST_2x100_MAPE_FINAL_2')
         exit()
@@ -97,7 +87,7 @@ def validate_train_test_split(Data):
         print(model.get_config())
         #model.model.load_weights(PATH + 'GJOA_GAS_WELLS_QGAS_HUBER_MODEL_FINAL.h5', by_name=True)
         # print(model.model.get_config())
-        #model.fit(X_train,Y_train,X_val,Y_val)
+        model.fit(X_train,Y_train,X_val,Y_val)
 
         # Fit with old data
         #model.update_model()
@@ -117,7 +107,7 @@ def validate_train_test_split(Data):
         #exit()
         #model = NET2_PRESSURE.VANILLANET()
 
-        model=NCNET1_GJOA2.NCNET1_GJOA2(DATA='GAS')
+        #model=NCNET1_GJOA2.NCNET1_GJOA2(DATA='GAS')
         #model = NET2_PRESSURE.SSNET2()
 
         #model.fit(X_train, Y_train, X_val, Y_val)
@@ -138,7 +128,7 @@ def validate_train_test_split(Data):
         #model = test_model.Test_model()
         #model=NCNET4_combined.NET4_W_PRESSURE2(PATH)
 
-        #model=NCNET4_combined.NET4_W_PRESSURE3()
+#        model=NCNET4_combined.NET4_W_PRESSURE3()
 
         #x_last=X_test[-1]
 
@@ -146,7 +136,7 @@ def validate_train_test_split(Data):
         #model.model.load_weights(PATH + 'GJOA_OIL_WELLS_PBH_ALL_DATA.h5', by_name=True)
         #model.model.load_weights(PATH + 'GJOA_OIL_WELLS_PDC_ALL_DATA.h5', by_name=True)
         #model.model.load_weights(PATH+'GJOA_deltaNET_OIL_WELLS_PWH_ALL_DATA.h5',by_name=True)
-        model.model.load_weights(PATH + 'GJOA_OIL_WELLS_GAS_HUBER_MODEL_FINAL2_TESTDATA2.h5', by_name=True)
+        #model.model.load_weights(PATH + 'GJOA_OIL_WELLS_GAS_HUBER_MODEL_FINAL2_TESTDATA2.h5', by_name=True)
        # exit()
 
         # model.initialize_zero_thresholds(Data)
@@ -166,7 +156,7 @@ def validate_train_test_split(Data):
         elif False:
             validateCV(model, model.get_weights(), Data, save=True,filename=model.model_name)
             exit()
-        elif False:
+        elif True:
             model.model.load_weights(PATH + 'GJOA_deltaNET_OIL_WELLS_PDC_ALL_DATA.h5', by_name=True)
             model.model.load_weights(PATH + 'GJOA_deltaNET_OIL_WELLS_PWH_ALL_DATA.h5', by_name=True)
             model.model.load_weights(PATH+'GJOA_deltaNET_OIL_WELLS_PBH_ALL_DATA.h5',by_name=True)

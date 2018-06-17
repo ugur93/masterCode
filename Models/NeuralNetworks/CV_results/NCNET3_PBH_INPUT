@@ -1,0 +1,259 @@
+RMSE_TRAIN: 
+C1_PBH                0.083430
+C1_PWH                2.451358
+C1_PDC                0.431765
+C2_PWH                1.337236
+C2_PDC                0.431106
+C3_PBH                0.036895
+C3_PWH                0.717706
+C3_PDC                0.431112
+C4_PBH                0.475641
+C4_PWH                1.022266
+C4_PDC                0.430726
+B3_PBH                0.742079
+B3_PWH                1.808243
+B3_PDC                0.436023
+B1_PBH                0.582780
+B1_PWH                3.020676
+B1_PDC                1.010205
+D1_PWH                1.455732
+D1_PDC                0.431425
+C1_QGAS              31.439175
+C2_QGAS              15.006280
+C3_QGAS              27.136943
+C4_QGAS              20.362790
+B1_QGAS              19.151287
+B3_QGAS              34.002020
+D1_QGAS              28.941297
+GJOA_OIL_SUM_QGAS    33.311870
+dtype: float64
+RMSE_TEST: 
+C1_PBH                0.062918
+C1_PWH                0.175180
+C1_PDC                0.835973
+C2_PWH                2.232294
+C2_PDC                0.836130
+C3_PBH                0.050273
+C3_PWH                4.475782
+C3_PDC                0.833435
+C4_PBH                0.304694
+C4_PWH                2.979493
+C4_PDC                0.830635
+B3_PBH                0.174712
+B3_PWH                5.763706
+B3_PDC                0.856221
+B1_PBH                0.469613
+B1_PWH                0.714004
+B1_PDC                0.853448
+D1_PWH                0.117900
+D1_PDC                0.835197
+C1_QGAS              11.646176
+C2_QGAS              12.302036
+C3_QGAS              34.409026
+C4_QGAS              13.174196
+B1_QGAS              17.437171
+B3_QGAS              45.714000
+D1_QGAS               9.777066
+GJOA_OIL_SUM_QGAS    35.542738
+dtype: float64
+R2_TRAIN: 
+C1_PBH               0.999875
+C1_PWH               0.909374
+C1_PDC               0.995512
+C2_PWH               0.963262
+C2_PDC               0.995510
+C3_PBH               0.999973
+C3_PWH               0.991625
+C3_PDC               0.995539
+C4_PBH               0.995403
+C4_PWH               0.982237
+C4_PDC               0.995513
+B3_PBH               0.987572
+B3_PWH               0.905139
+B3_PDC               0.995505
+B1_PBH               0.997559
+B1_PWH               0.942570
+B1_PDC               0.976113
+D1_PWH               0.957138
+D1_PDC               0.995528
+C1_QGAS              0.960152
+C2_QGAS              0.989805
+C3_QGAS              0.969038
+C4_QGAS              0.979231
+B1_QGAS              0.994030
+B3_QGAS              0.965470
+D1_QGAS              0.966571
+GJOA_OIL_SUM_QGAS    0.998914
+dtype: float64
+R2_TEST: 
+C1_PBH               0.996368
+C1_PWH               0.974971
+C1_PDC               0.888068
+C2_PWH              -0.234740
+C2_PDC               0.888681
+C3_PBH               0.994400
+C3_PWH              -0.593328
+C3_PDC               0.888499
+C4_PBH               0.791272
+C4_PWH               0.390038
+C4_PDC               0.890300
+B3_PBH               0.976391
+B3_PWH              -0.032700
+B3_PDC               0.885184
+B1_PBH               0.895580
+B1_PWH               0.956410
+B1_PDC               0.885673
+D1_PWH               0.958638
+D1_PDC               0.888410
+C1_QGAS              0.013364
+C2_QGAS              0.983549
+C3_QGAS              0.876712
+C4_QGAS              0.981563
+B1_QGAS              0.932342
+B3_QGAS              0.851356
+D1_QGAS              0.107134
+GJOA_OIL_SUM_QGAS    0.970289
+dtype: float64
+sMAPE_TRAIN: 
+C1_PBH               0.022192
+C1_PWH               0.291311
+C1_PDC               0.276388
+C2_PWH               0.382429
+C2_PDC               0.278723
+C3_PBH               0.014481
+C3_PWH               0.233486
+C3_PDC               0.276009
+C4_PBH               0.206039
+C4_PWH               0.252046
+C4_PDC               0.275023
+B3_PBH               0.068150
+B3_PWH               0.271295
+B3_PDC               0.281560
+B1_PBH               0.177570
+B1_PWH               0.701069
+B1_PDC               0.323385
+D1_PWH               0.160759
+D1_PDC               0.280364
+C1_QGAS              3.117607
+C2_QGAS              1.412399
+C3_QGAS              2.231440
+C4_QGAS              1.815226
+B1_QGAS              1.734293
+B3_QGAS              4.313571
+D1_QGAS              3.127203
+GJOA_OIL_SUM_QGAS    0.370156
+dtype: float64
+sMAPE_TEST: 
+C1_PBH               0.026814
+C1_PWH               0.094509
+C1_PDC               0.707083
+C2_PWH               0.784406
+C2_PDC               0.709594
+C3_PBH               0.021785
+C3_PWH               0.825416
+C3_PDC               0.702735
+C4_PBH               0.145456
+C4_PWH               0.637043
+C4_PDC               0.699820
+B3_PBH               0.060493
+B3_PWH               1.076642
+B3_PDC               0.732819
+B1_PBH               0.218376
+B1_PWH               0.435705
+B1_PDC               0.736795
+D1_PWH               0.065266
+D1_PDC               0.709625
+C1_QGAS              1.029197
+C2_QGAS              1.191588
+C3_QGAS              3.633175
+C4_QGAS              1.304829
+B1_QGAS              2.176601
+B3_QGAS              5.406974
+D1_QGAS              0.797405
+GJOA_OIL_SUM_QGAS    0.445436
+dtype: float64
+RMSE_TRAIN_SCORES: 
+    C1_PBH    C1_PWH    C1_PDC    C2_PWH    C2_PDC    C3_PBH    C3_PWH  \
+0  0.08343  2.451358  0.431765  1.337236  0.431106  0.036895  0.717706   
+
+     C3_PDC    C4_PBH    C4_PWH        ...            D1_PWH    D1_PDC  \
+0  0.431112  0.475641  1.022266        ...          1.455732  0.431425   
+
+     C1_QGAS   C2_QGAS    C3_QGAS   C4_QGAS    B1_QGAS   B3_QGAS    D1_QGAS  \
+0  31.439175  15.00628  27.136943  20.36279  19.151287  34.00202  28.941297   
+
+   GJOA_OIL_SUM_QGAS  
+0           33.31187  
+
+[1 rows x 27 columns]
+RMSE_TEST_SCORES: 
+     C1_PBH   C1_PWH    C1_PDC    C2_PWH   C2_PDC    C3_PBH    C3_PWH  \
+0  0.062918  0.17518  0.835973  2.232294  0.83613  0.050273  4.475782   
+
+     C3_PDC    C4_PBH    C4_PWH        ...          D1_PWH    D1_PDC  \
+0  0.833435  0.304694  2.979493        ...          0.1179  0.835197   
+
+     C1_QGAS    C2_QGAS    C3_QGAS    C4_QGAS    B1_QGAS  B3_QGAS   D1_QGAS  \
+0  11.646176  12.302036  34.409026  13.174196  17.437171   45.714  9.777066   
+
+   GJOA_OIL_SUM_QGAS  
+0          35.542738  
+
+[1 rows x 27 columns]
+sMAPE_TRAIN_SCORES: 
+     C1_PBH    C1_PWH    C1_PDC    C2_PWH    C2_PDC    C3_PBH    C3_PWH  \
+0  0.022192  0.291311  0.276388  0.382429  0.278723  0.014481  0.233486   
+
+     C3_PDC    C4_PBH    C4_PWH        ...            D1_PWH    D1_PDC  \
+0  0.276009  0.206039  0.252046        ...          0.160759  0.280364   
+
+    C1_QGAS   C2_QGAS  C3_QGAS   C4_QGAS   B1_QGAS   B3_QGAS   D1_QGAS  \
+0  3.117607  1.412399  2.23144  1.815226  1.734293  4.313571  3.127203   
+
+   GJOA_OIL_SUM_QGAS  
+0           0.370156  
+
+[1 rows x 27 columns]
+sMAPE_TEST_SCORES: 
+     C1_PBH    C1_PWH    C1_PDC    C2_PWH    C2_PDC    C3_PBH    C3_PWH  \
+0  0.026814  0.094509  0.707083  0.784406  0.709594  0.021785  0.825416   
+
+     C3_PDC    C4_PBH    C4_PWH        ...            D1_PWH    D1_PDC  \
+0  0.702735  0.145456  0.637043        ...          0.065266  0.709625   
+
+    C1_QGAS   C2_QGAS   C3_QGAS   C4_QGAS   B1_QGAS   B3_QGAS   D1_QGAS  \
+0  1.029197  1.191588  3.633175  1.304829  2.176601  5.406974  0.797405   
+
+   GJOA_OIL_SUM_QGAS  
+0           0.445436  
+
+[1 rows x 27 columns]
+
+Well O1 & 0.06 & 1.00 & 0.03\% \\ 
+ Well O1 & 0.18 & 0.97 & 0.09\% \\ 
+ Well O1 & 0.84 & 0.89 & 0.71\% \\ 
+ Well O2 & 2.23 & -0.23 & 0.78\% \\ 
+ Well O2 & 0.84 & 0.89 & 0.71\% \\ 
+ Well O3 & 0.05 & 0.99 & 0.02\% \\ 
+ Well O3 & 4.48 & -0.59 & 0.83\% \\ 
+ Well O3 & 0.83 & 0.89 & 0.70\% \\ 
+ Well O4 & 0.30 & 0.79 & 0.15\% \\ 
+ Well O4 & 2.98 & 0.39 & 0.64\% \\ 
+ Well O4 & 0.83 & 0.89 & 0.70\% \\ 
+ Well O6 & 0.17 & 0.98 & 0.06\% \\ 
+ Well O6 & 5.76 & -0.03 & 1.08\% \\ 
+ Well O6 & 0.86 & 0.89 & 0.73\% \\ 
+ Well O5 & 0.47 & 0.90 & 0.22\% \\ 
+ Well O5 & 0.71 & 0.96 & 0.44\% \\ 
+ Well O5 & 0.85 & 0.89 & 0.74\% \\ 
+ Well O7 & 0.12 & 0.96 & 0.07\% \\ 
+ Well O7 & 0.84 & 0.89 & 0.71\% \\ 
+ Well O1 & 11.65 & 0.01 & 1.03\% \\ 
+ Well O2 & 12.30 & 0.98 & 1.19\% \\ 
+ Well O3 & 34.41 & 0.88 & 3.63\% \\ 
+ Well O4 & 13.17 & 0.98 & 1.30\% \\ 
+ Well O5 & 17.44 & 0.93 & 2.18\% \\ 
+ Well O6 & 45.71 & 0.85 & 5.41\% \\ 
+ Well O7 & 9.78 & 0.11 & 0.80\% \\ 
+ Total production flow rate & 35.54 & 0.97 & 0.45\% \\ 
+ 

@@ -643,7 +643,8 @@ class NET4_W_PRESSURE3(NN_BASE):
 
         self.model = Model(input=all_inputs, output=all_outputs)
         self.model.compile(optimizer=self.optimizer, loss=self.loss, loss_weights=self.loss_weights)
-
+        print(self.model.summary())
+        exit()
         # .model.load_weights(self.pressure_weights_path,by_name=True)
 
     def generate_input_module(self, n_input, pres_output_layers, name):

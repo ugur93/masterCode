@@ -59,13 +59,13 @@ class NCNET_VANILLA(NN_BASE):
             for tag in out_tags:
                 cols_out.append(name+'_'+tag)
         self.output_tags = {
-            #'C1_out': ['C1_QOIL'],
-            #'C2_out': ['C2_QOIL'],
-            #'C3_out': ['C3_QOIL'],
-            #'C4_out': ['C4_QOIL'],
-            #'D1_out': ['D1_QOIL'],
-            #'B3_out': ['B3_QOIL'],
-            #'B1_out': ['B1_QOIL'],
+            'C1_out': ['C1_QOIL'],
+            'C2_out': ['C2_QOIL'],
+            'C3_out': ['C3_QOIL'],
+            'C4_out': ['C4_QOIL'],
+            'D1_out': ['D1_QOIL'],
+            'B3_out': ['B3_QOIL'],
+            'B1_out': ['B1_QOIL'],
             # 'Riser_out':['GJOA_TOTAL_QOIL_SUM'],
             #'TOTAL_OUT': ['C1_QOIL','C2_QOIL','C3_QOIL','C4_QOIL','B1_QOIL','B3_QOIL','D1_QOIL','GJOA_TOTAL_QOIL']
             'TOTAL_OUT':['GJOA_OIL_QGAS']

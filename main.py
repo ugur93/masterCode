@@ -13,15 +13,10 @@ if __name__=='__main__':
     #GjoaOIL.merge(GjoaGAS.X,GjoaGAS.Y)
     #exit()
 
-    GjoaGAS = SimulatedData.fetchSimulatedData()
+    #GjoaGAS = SimulatedData.fetchSimulatedData()
     #exit()
 
-    #print('\n \n')
 
-
-    #print(chkInputs.columns)
-
-    #Validate.validate(GjoaOIL,GjoaGAS)
 
     Validate.validate(GjoaOIL,GjoaGAS)
     #Validate.validateCV(GjoaData)
